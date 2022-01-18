@@ -1,0 +1,7 @@
+{
+  "name": "GasolCalc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
