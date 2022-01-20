@@ -11,4 +11,4 @@ O que o aplitivo possui?
   <li>Como poupar combustível.</li>
 </ul>
 
-Em breve na <b>google playstore</b>
+
