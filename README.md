@@ -3,11 +3,12 @@
 Aplicativo simples para calculo de combustível.
 
 O que o aplitivo possui?
-
--Combustível por distância;
--Preço por distância;
--Álcool x Gasolina;
--Consumo médio;
--Como poupar combustível.
+<ul>
+<li>Combustível por distância;</li>
+<li>Preço por distância;</li>
+<li>Álcool x Gasolina;</li>
+<li>Consumo médio;</li>
+  <li>Como poupar combustível.</li>
+</ul>
 
 Em breve na <b>google playstore</b>
