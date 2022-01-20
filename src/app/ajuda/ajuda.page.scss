@@ -1,0 +1,89 @@
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+ion-content {
+  //--background: #0067ac;
+
+  //--background-size: cover;
+}
+ion-header {
+  border-style: none !important;
+}
+
+ion-toolbar {
+  --background: transparent;
+}
+
+.header-collapse-condense ion-toolbar {
+  --background: transparent !important;
+}
+
+* {
+  --color: #fff;
+}
+
+ion-title {
+  text-align: center;
+}
+// div back
+.divback {
+  background: url("../../assets/rodovia2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  //background-colorrgb(131, 148, 131)52;
+  position: absolute;
+  // top: -6px;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  //transform: rotate(45deg);
+  // right: 127px;
+}
+
+:host {
+  --background: #000;
+}
+
+ion-card {
+  --background: #505050ec;
+  padding: 20px 9px;
+}
+
+ion-item {
+  --color: #3c3c3c;
+  --background: transparent;
+}
+
+ion-button {
+  --text-align: center;
+}
+
+.voltar {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-size: 36px;
+  width: 9%;
+  /* padding-left: 0px;*/
+}

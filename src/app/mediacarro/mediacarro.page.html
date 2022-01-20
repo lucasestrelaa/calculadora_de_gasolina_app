@@ -1,0 +1,43 @@
+<ion-content [fullscreen]="true">
+  <div class="divback"></div>
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons class="voltar" (click)="voltar()" slot="start">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+      </ion-buttons>
+      <!-- <ion-title size="large">Home</ion-title> -->
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-card>
+      <ion-card-title class="titulo">Consumo médio</ion-card-title>
+
+      <ion-input
+        type="number"
+        name="litro"
+        id="litro"
+        [(ngModel)]="litro"
+        placeholder="Litros abastecidos"
+      ></ion-input>
+      <ion-input
+        type="number"
+        name="km"
+        id="km"
+        [(ngModel)]="km"
+        placeholder="Quilometros rodados(KM)"
+      ></ion-input>
+
+      <ion-button class="botao" button expand="block" (click)="calcular()"
+        >Calcular</ion-button
+      >
+      {{ resultado }}
+    </ion-card>
+  </div>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="ajuda()">
+      <ion-icon name="information-circle-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  <script></script>
+</ion-content>

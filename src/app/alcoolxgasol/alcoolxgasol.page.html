@@ -1,0 +1,49 @@
+<ion-content [fullscreen]="true">
+  <div class="divback"></div>
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons class="voltar" (click)="voltar()" slot="start">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+      </ion-buttons>
+      <!-- <ion-title size="large">Home</ion-title> -->
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-card>
+      <ion-card-title class="titulo">Álcool x Gasolina</ion-card-title>
+
+      <ion-input
+        type="number"
+        name="alcool"
+        id="alcool"
+        [(ngModel)]="alcool"
+        placeholder="Preço do Álcool"
+      ></ion-input>
+      <ion-input
+        type="number"
+        name="gasolina"
+        id="gasolina"
+        [(ngModel)]="gasolina"
+        placeholder="Preço da Gasolina"
+      ></ion-input>
+      <!-- <ion-input
+        type="number"
+        name="preco"
+        id="preco"
+        [(ngModel)]="preco"
+        placeholder="Preço"
+      ></ion-input> -->
+      <ion-button class="botao" button expand="block" (click)="calcular()"
+        >Calcular</ion-button
+      >
+      {{ resultado }}
+    </ion-card>
+  </div>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="ajuda()">
+      <ion-icon name="information-circle-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  <script></script>
+</ion-content>

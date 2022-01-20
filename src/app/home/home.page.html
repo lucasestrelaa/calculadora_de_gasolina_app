@@ -1,20 +1,29 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <div class="divback"></div>
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title>Calculadora de combustível</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ion-card button (click)="dist()">
+      <ion-card-title>Combustível por distância</ion-card-title>
+    </ion-card>
+    <ion-card button (click)="preco()">
+      <ion-card-title>Preço por distância</ion-card-title>
+    </ion-card>
+    <ion-card button (click)="axg()">
+      <ion-card-title>Álcool vs Gasolina</ion-card-title>
+    </ion-card>
+    <ion-card button (click)="media()">
+      <ion-card-title>Consumo médio</ion-card-title>
+    </ion-card>
   </div>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="ajuda()">
+      <ion-icon name="information-circle-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  <script></script>
 </ion-content>

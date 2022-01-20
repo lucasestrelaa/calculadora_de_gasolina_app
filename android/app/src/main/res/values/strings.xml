@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">GasolCalc</string>
+    <string name="title_activity_main">GasolCalc</string>
+    <string name="package_name">add.tech.gasolcalc</string>
+    <string name="custom_url_scheme">add.tech.gasolcalc</string>
+</resources>
