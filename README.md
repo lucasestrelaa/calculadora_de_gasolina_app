@@ -11,4 +11,5 @@ O que o aplitivo possui?
   <li>Como poupar combustível.</li>
 </ul>
 
+Link para download: https://play.google.com/store/apps/details?id=add.tech.gasolcalc
 
